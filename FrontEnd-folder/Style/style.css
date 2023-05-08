@@ -1,0 +1,42 @@
+
+html,body {
+    height: 100%;
+  }
+  #wrapper {
+    min-height: 100%;
+    margin-bottom: -150px; /* height of footer */
+  }
+  #footer {
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  
+  
+  }
+
+  .no-data-found {
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .button {
+    background-color: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .button:hover {
+    background-color: #aaa;
+  }
